@@ -1,0 +1,41 @@
+.links-label {
+    margin: 25px 0 5px 30px;
+}
+
+.links-form {
+    margin: 0 25px;
+    width: 500px;
+}
+
+.links-btn,
+.links-text {
+    margin-left: 25px;
+}
+
+.exception {
+    margin: 50px;
+    background-color: #F06258;
+    border: solid 3px red;
+    border-radius: 20px;
+}
+
+.exception_code,
+.exception_message {
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.exception_code {
+    font-size: 50px;
+}
+
+.exception_message {
+    font-size: 40px;
+    margin-top: -40px;
+}
+
+.link_block {
+    margin-top: 25px;
+    font-size: 26px;
+}

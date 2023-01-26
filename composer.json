@@ -1,0 +1,13 @@
+{
+    "name": "links/app",
+    "autoload": {
+        "psr-4": {
+            "Links\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "twig/twig": "*",
+        "symfony/polyfill-mbstring": "*"
+    }
+}

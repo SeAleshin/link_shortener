@@ -1,0 +1,23 @@
+{% extends 'templates/base.twig' %}
+
+{% block body %}
+
+<main>
+
+<h1>Создайте свою короткую ссылку</h1>
+
+{% if alert == true %}
+    <div class="alert alert-danger" role="alert"> {{ message }} </div>
+{% endif  %}
+
+<form method="post" action="/create">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label links-label">Ссылка</label>
+    <input class="form-control links-form" type="text" id="exampleInputEmail1" placeholder="Укажите ссылку..." name="link" required>
+    <div id="emailHelp" class="form-text links-text">Вы можете делиться короткой ссылкой.</div>
+  </div>
+  <button type="submit" class="btn btn-primary links-btn">Создать</button>
+</form>
+</main>
+
+{% endblock %}
